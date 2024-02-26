@@ -16,6 +16,6 @@ const titleCased = () => {
      let newTut =  elem.split(" ")
       newTut = newTut.map(str => str[0].toUpperCase() + str.slice(1))
       return newTut.join(" ")                       
-})
+});
   return newTutorials
 }
